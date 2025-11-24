@@ -1,0 +1,32 @@
+{   
+    "comment": "This is a json file for TDC count.",
+
+    "blcok0": "count windows info",
+    "window_start(ps)": 250e3,
+    "window_end(ps)": 330e3,
+
+    "block1": "recquire time info",
+    "period(s)": 500e-6,
+    "time_start(s)": 0,
+    "time_stop(s)": 4000,
+
+    "block2": "pulse info",
+    "pulse_num": 1,
+    "pulse_interval(ps)": 65e6,
+
+    "block3": "turn / phase info",
+    "turns": ["0.125","0.5","0.375","0.1","0.2","0.3","0.4"],
+
+    "block4": "windwo move info",
+    "window_start_list(ns)":[620,622,624],
+    "window_len(ns)":4,    
+    
+    "block5": "monitor pulse info",
+    "monitor_start(ps)": 45441800,
+    "monitor_end(ps)":   45443000,
+
+    "block6": "outer count info",
+    "threshold": 1,
+    "inner_loop": 1000000,
+    "start_index": 1
+}
